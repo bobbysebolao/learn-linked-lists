@@ -26,6 +26,18 @@ class LinkedList {
             }
             return lastNode;
         }
+        this.reverse = () => {
+            let currNode = this.head;
+            let prevNode = null;
+            while (currNode) {
+                if (!currNode.next) this.head = currNode;
+                let tempNext = currNode.next;
+                currNode.next = prevNode;
+                prevNode = currNode;
+                currNode = tempNext;
+            }
+            return this.head;
+        }
     }
 }
 
@@ -40,7 +52,6 @@ const toLinkedList = (arr) => {
         else listNodes[i].next = null;
     }
     const linkedList =  new LinkedList(listNodes[0]);
-    console.log(linkedList.clear());
     return linkedList;
 }
 
