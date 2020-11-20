@@ -7,3 +7,6 @@ A linked list consists of nodes where each node contains a data field and a refe
 ### Resources
 - [How to Implement a Linked List in JavaScript](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/) (freeCodeCamp)
 - [Linked List Data Structure](https://www.geeksforgeeks.org/data-structures/linked-list/) (Geeks For Geeks)
+
+#### Stackoverflow discussions
+- [Would you ever implement a linked list in Javascript?](https://stackoverflow.com/questions/30949981/would-you-ever-implement-a-linked-list-in-javascript)
